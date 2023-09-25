@@ -10,11 +10,69 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* Default background and font color */
-    background: #282a36;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    /* Default font specs and background */
+    background-color: #282a36;
     color: #f8f8f2;
+    text-align: center;
+    /* Adds display type flex / flexbox */
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Link Behaviour */
+a {
+    color: #50fa7b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f1fa8c;
+  }
+
+/* Top Navbar */
+.topnav {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.topnav a {
+    padding: 14px 16px
+}
+
+header {
+    color: #bd93f9;
+    padding:20px;
 }
 
 h1 {
-    color: #bd93f9
+    color: #bd93f9;
+}
+
+footer {
+    text-align: center;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Bottom Navbar */
+.botnav {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.botnav a {
+    padding: 14px 16px
 }
