@@ -1,5 +1,4 @@
-/* Installing free, open source 'Inter' font per 
-• https://github.com/rsms/inter */
+/* Installing free, open source 'Inter' font per https://github.com/rsms/inter */
 
 :root { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
@@ -11,11 +10,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* Default background and font color */
     background: #282a36;
     color: #f8f8f2;
-    font-family: 'Inter' serif;
 }
 
 h1 {
-    color: red
+    color: #bd93f9
 }
