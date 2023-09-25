@@ -1,8 +1,19 @@
-/* CSS Reset */
+/* Installing free, open source 'Inter' font per 
+• https://github.com/rsms/inter */
+
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+/* Including CSS Reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background: #282a36;
+    color: #f8f8f2;
+    font-family: 'Inter' serif;
 }
 
 h1 {
