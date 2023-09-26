@@ -13,10 +13,29 @@
 }
 
 /* Adding some spacing between h1, h2, p, etc. elements */
-h1, h2, h3, p {
+h1, h2, h3, p, img {
     margin-bottom: 20px;
 }
 
+/* Heading formatting */
+header {
+    color: #bd93f9;
+    padding:20px;
+}
+
+h1 {
+    color: #bd93f9;
+}
+
+h2 {
+    color: #8be9fd;
+}
+
+h3 {
+    color: #8be9fd;
+}
+
+/* Body defaults */
 body {
     width: 100%;
     height: 100%;
@@ -34,7 +53,7 @@ body {
 }
 
 /* Contact */
-section {
+.contact {
     padding: 20px;
     /* margin: 50px; */
     /* vertical-align: middle; */
@@ -52,21 +71,12 @@ a:hover {
 
 /* Top Navbar */
 .topnav {
-    padding: 20px;
+    padding: 30px;
     overflow: hidden;
 }
 
 .topnav a {
     padding: 14px 16px
-}
-
-header {
-    color: #bd93f9;
-    padding:20px;
-}
-
-h1 {
-    color: #bd93f9;
 }
 
 /* Bottom Navbar */
@@ -88,6 +98,11 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
+}
+
+/* Formatting for articles */
+article {
+    text-align: left;
 }
 
 /* Blog Page */
@@ -113,3 +128,71 @@ footer {
     background: linear-gradient(transparent, #282a36); /* Creates gradient / fading effect */
     pointer-events: none; /* Allows interaction with the underlying text, e.g. highlighting the text */
 }
+
+/* Blog Page images */
+.blog-image {
+    width: auto;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* Experience Page with columns */
+
+.experience { /* Creates 2 equal columns that float next to each other */
+    text-align: left;
+    float: left;
+    width: 50%;
+    padding: 15px;
+    
+}
+
+.row:after { /* Clears the floats after the columns */
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Make the experience stack on smaller screens */
+@media screen and (max-width: 600px) {
+  .experience {
+    width: 100%;
+  }
+}
+
+/* Resume Link formatting  */
+.resume a {
+    color: #ffb86c;
+    font-weight: bold;
+}
+
+.resume a:hover {
+    color: #f1fa8c;
+  }
+
+/* Education / Work bullet list formatting */
+
+ul, li {
+    margin-bottom: 15px;
+}
+
+.cert {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    display: list-item;
+    list-style-type: disc;
+}
+
+.role {
+    /* padding: 30px; */
+    margin-left: 20px;
+    display: list-item;
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+.work-image {
+    width: auto;
+    height: 20px; /* resize the image */
+    border-radius: 10px;
+    vertical-align: text-top; /* ensures the text is in line with image */
+    }
