@@ -12,6 +12,11 @@
     padding: 0;
 }
 
+/* Adding some spacing between h1, h2, p, etc. elements */
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -26,6 +31,13 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+/* Contact */
+section {
+    padding: 20px;
+    /* margin: 50px; */
+    /* vertical-align: middle; */
 }
 
 /* Link Behaviour */
@@ -57,6 +69,17 @@ h1 {
     color: #bd93f9;
 }
 
+/* Bottom Navbar */
+.botnav {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.botnav a {
+    padding: 14px 16px
+}
+
+/* Footer / Copyright */
 footer {
     text-align: center;
     display: flex; 
@@ -67,12 +90,26 @@ footer {
     padding: 20px;
 }
 
-/* Bottom Navbar */
-.botnav {
-    padding: 20px;
-    overflow: hidden;
+/* Blog Page */
+
+.blog {
+    padding: 10px;
+    margin: 10px;
+    position: relative; /* In order to achieve the overlay/fade effect, need this to be positioned on top*/
 }
 
-.botnav a {
-    padding: 14px 16px
+.preview-text {
+    position: relative; /* Required for the ::before pseudo-element */
+    z-index: 1; /* Ensures that the text preview is on top */
+}
+
+.preview-text::before { /* ::before will add this pseudo content before the text for the effect */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(transparent, #282a36); /* Creates gradient / fading effect */
+    pointer-events: none; /* Allows interaction with the underlying text, e.g. highlighting the text */
 }
