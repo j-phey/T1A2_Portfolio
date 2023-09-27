@@ -20,7 +20,7 @@ h1, h2, h3, p, img {
 /* Heading formatting */
 header {
     color: #bd93f9;
-    padding:1rem;
+    /* padding:1rem; */
 }
 
 h1 {
@@ -52,6 +52,20 @@ body {
     align-items: center;
 }
 
+/* Logo Formatting */
+.logo {
+    width: auto;
+    height: 70px;
+    margin-bottom: 0rem;
+}
+
+/* Profile Image dimensions */
+.profile {
+    width: auto;
+    height: 120px;
+    border-radius: 100px;
+}
+
 /* Contact */
 .contact {
     padding: 1rem;
@@ -73,10 +87,11 @@ a:hover {
 .topnav {
     padding: 2rem;
     overflow: hidden;
+    font-weight: bold;
 }
 
 .topnav a {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
 }
 
 /* Bottom Navbar */
@@ -89,17 +104,9 @@ a:hover {
     padding: 1rem 1.5rem;
 }
 
-.social {
-    width: auto;
-    height: 50px;
-}
-
 /* Experimenting with icon hover */
 
-/* Define the default GitHub logo styles */
 .github-logo {
-    width: 100px; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; /* Add smooth transitions */
     width: auto;
     height: 50px;
@@ -107,33 +114,60 @@ a:hover {
 
 /* Replace the image on hover */
 .github-logo:hover {
-    content: url('/assets/github-hover.png'); /* Replace the image on hover */
+    content: url('/assets/github-hover.png'); 
 }
 
 .linkedin-logo {
-    width: 100px; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
-    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; /* Add smooth transitions */
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; 
     width: auto;
     height: 50px;
 }
 
 .linkedin-logo:hover {
-    content: url('/assets/linkedin-hover.png'); /* Replace the image on hover */
+    content: url('/assets/linkedin-hover.png'); 
 }
 
 .email-logo {
-    width: 100px; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
-    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; /* Add smooth transitions */
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; 
     width: auto;
     height: 50px;
 }
 
 .email-logo:hover {
-    content: url('/assets/email-hover.png'); /* Replace the image on hover */
+    content: url('/assets/email-hover.png'); 
 }
 
+/* Adding smaller icons for non-home pages */
+
+.github-logo-small {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; 
+    width: auto;
+    height: 35px;
+}
+
+.github-logo-small:hover {
+    content: url('/assets/github-hover.png'); 
+}
+
+.linkedin-logo-small {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; 
+    width: auto;
+    height: 35px;
+}
+
+.linkedin-logo-small:hover {
+    content: url('/assets/linkedin-hover.png'); 
+}
+
+.email-logo-small {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; 
+    width: auto;
+    height: 35px;
+}
+
+.email-logo-small:hover {
+    content: url('/assets/email-hover.png'); 
+}
 
 /* Footer / Copyright */
 footer {
