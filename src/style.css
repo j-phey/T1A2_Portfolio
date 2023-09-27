@@ -14,13 +14,13 @@
 
 /* Adding some spacing between h1, h2, p, etc. elements */
 h1, h2, h3, p, img {
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 }
 
 /* Heading formatting */
 header {
     color: #bd93f9;
-    padding:20px;
+    padding:1rem;
 }
 
 h1 {
@@ -54,7 +54,7 @@ body {
 
 /* Contact */
 .contact {
-    padding: 20px;
+    padding: 1rem;
     /* margin: 50px; */
     /* vertical-align: middle; */
 }
@@ -71,22 +71,22 @@ a:hover {
 
 /* Top Navbar */
 .topnav {
-    padding: 30px;
+    padding: 2rem;
     overflow: hidden;
 }
 
 .topnav a {
-    padding: 14px 16px
+    padding: 1rem 1.5rem;
 }
 
 /* Bottom Navbar */
 .botnav {
-    padding: 20px;
+    padding: 1rem;
     overflow: hidden;
 }
 
 .botnav a {
-    padding: 14px 16px
+    padding: 1rem 1.5rem;
 }
 
 /* Footer / Copyright */
@@ -97,7 +97,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px;
+    padding: 1rem;
 }
 
 /* Formatting for articles */
@@ -108,8 +108,8 @@ article {
 /* Blog Page */
 
 .blog {
-    padding: 10px;
-    margin: 10px;
+    padding: 1rem;
+    margin: 1rem;
     position: relative; /* In order to achieve the overlay/fade effect, need this to be positioned on top*/
 }
 
@@ -133,7 +133,7 @@ article {
 .blog-image {
     width: auto;
     height: 250px;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 /* Experience Page with columns */
@@ -142,7 +142,7 @@ article {
     text-align: left;
     float: left;
     width: 50%;
-    padding: 15px;
+    padding: 1rem;
     
 }
 
@@ -172,22 +172,22 @@ article {
 /* Education / Work bullet list formatting */
 
 ul, li {
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .cert {
-    margin-bottom: 15px;
-    margin-left: 20px;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
     display: list-item;
     list-style-type: disc;
 }
 
 .role {
     /* padding: 30px; */
-    margin-left: 20px;
+    margin-left: 1rem;
     display: list-item;
     list-style-type: disc;
-    margin-bottom: 5px;
+    margin-bottom: 0.7rem;
 }
 
 .work-image {
@@ -196,3 +196,22 @@ ul, li {
     border-radius: 10px;
     vertical-align: text-top; /* ensures the text is in line with image */
     }
+
+/* About Me Section */
+
+.about {
+    background-color: #44475a;
+    padding: 2rem 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.about img {
+    width: auto;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.about h3 {
+    color: #ffb86c;
+}
