@@ -85,13 +85,13 @@ a:hover {
 
 /* Top Navbar */
 .topnav {
-    padding: 2rem;
+    padding: 2rem 0rem;
     overflow: hidden;
     font-weight: bold;
 }
 
 .topnav a {
-    padding: 1rem 1rem;
+    padding: 0.2rem 0.5rem;
 }
 
 /* Bottom Navbar */
@@ -248,6 +248,24 @@ article {
 .resume a:hover {
     color: #f1fa8c;
   }
+
+.resume-button {
+    background-color: #ffb86c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.resume-button:hover {
+    background-color: #ff79c6;
+}
 
 /* Education / Work bullet list formatting */
 
