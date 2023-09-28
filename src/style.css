@@ -239,33 +239,28 @@ article {
   }
 }
 
-/* Resume Link formatting  */
+/* Resume Link formatting and experimenting with animation and active click */
 .resume a {
-    color: #ffb86c;
+    color:#f8f8f2;
+    background-color: #bd93f9;
     font-weight: bold;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 5px #f8f8f2;
+    transition: all 0.2s;
+    border-radius: 4px;
 }
 
 .resume a:hover {
-    color: #f1fa8c;
+    background-color: #ffb86c;
   }
 
-.resume-button {
+.resume a:active {
     background-color: #ffb86c;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-
-.resume-button:hover {
-    background-color: #ff79c6;
-}
+    box-shadow: 0 3px #44475a;
+    transform: translateY(4px);
+  }
 
 /* Education / Work bullet list formatting */
 
