@@ -12,7 +12,7 @@ The purpose of my portfolio website is to showcase the web development skills th
 
 Employers looking to engage me as a dev and/or IT professional. 
 
-### Tech stack (e.g. html, css, deployment platform, etc)
+### Tech stack 
 
 - **Website:** Semantic HTML5 and CSS
 - **Version control:** [GitHub](https://github.com/jjjjjjpppppp/T1A2_Portfolio)
@@ -50,7 +50,7 @@ The **Experience** page features two columns that briefly highlight my education
 
 It features unordered lists/bullet points for readability and indentation for sub-bullets, which I had to manually push out. Also, I added the company’s logos next to the work experience to add a simple, but effective, visual element for users to quickly recognise my previous employers.
 
-At the bottom is a button that links out to my full resume. The button features a change of colour on hover, as well as an active change when clicked or tapped on for a true button effect.
+At the bottom is a button that links out to my full resume - '`Click for my full resume`' The button features a change of colour on hover, as well as an active change when clicked or tapped on for a true button effect.
 
 #### About Me page
 
