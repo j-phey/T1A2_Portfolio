@@ -66,19 +66,28 @@ Users can always navigate to **Home**, **Blog**, **Experience** and **About Me**
 
 ![Image of sitemap](./docs/sitemap.png 'Sitemap')
 
-<!-- SAVE THIS TILL LAST IN CASE IT CHANGES -->
 ### Screenshots
 
 #### Home page (mobile)
-![Screenshot of home page (mobile))](./docs/home_mobile.png 'Home (mobile)')
+![Screenshot of home page (mobile))](./docs/Screenshot_Mobile_Home.png 'Home (mobile)')
 
 #### Home Page (desktop)
-
+![Screenshot of home page (desktop))](./docs/Screenshot_Desktop_Home.png 'Home (desktop)')
 
 #### Blog page
+![Screenshot of blog page (mobile))](./docs/Screenshot_Mobile_Blog.png 'Blog (mobile)')
 
 #### Blog page > Blog post example page
+![Screenshot of blog post page (mobile))](./docs/Screenshot_Mobile_Blog_Post.png 'Blog Post (mobile)')
 
-#### Experience page
+#### Experience page (mobile)
+![Screenshot of experience page (mobile))](./docs/Screenshot_Mobile_Experience.png 'Experience (mobile)')
 
-#### About Me page
+#### Experience page (desktop)
+![Screenshot of experience page (desktop))](./docs/Screenshot_Desktop_Experience.png 'Experience (desktop)')
+
+#### About Me page (mobile)
+![Screenshot of about me page (mobile))](./docs/Screenshot_Mobile_About.png 'About Me (mobile)')
+
+#### About Me page (desktop)
+![Screenshot of about me page (desktop))](./docs/Screenshot_Desktop_About.png 'About Me (desktop)')
