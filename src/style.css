@@ -52,11 +52,31 @@ body {
     align-items: center;
 }
 
+main {
+    margin-top: 10rem;
+}
+
+/* Decided to remove this... but leaving for my own learning  */
 /* Logo Formatting */
+.logo-bg {
+    width: 100%;
+    background-color: #282a36;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
 .logo {
     width: auto;
     height: 70px;
     margin-bottom: 0rem;
+    position: fixed;
+    top: 0;
+    margin-top: 1rem;
+    background-color: #282a36;
+    z-index: 5;
 }
 
 /* Profile Image dimensions */
@@ -88,6 +108,18 @@ a:hover {
     padding: 2rem 0rem;
     overflow: hidden;
     font-weight: bold;
+    position: fixed;
+    top: 0;
+    /* margin-top: 1rem; */
+    background-color: #282a36;
+    overflow: hidden;
+    z-index: 5;
+    width: 100%;
+}
+
+.topnav img {
+    width: auto;
+    height: 70px;
 }
 
 .topnav a {
@@ -293,6 +325,8 @@ ul, li {
 /* About Me Section */
 
 .about {
+    text-align: center;
+    width: 80vw;
     background-color: #44475a;
     padding: 2rem 1rem;
     margin: 1rem;
