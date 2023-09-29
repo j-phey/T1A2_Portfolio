@@ -1,7 +1,8 @@
 # Coder Academy - T1A2 - Jonathan Phey
 
-- Portfolio website: https://jpjp.vercel.app/
-- GitHub Repo: https://github.com/jjjjjjpppppp/T1A2_Portfolio
+- [Portfolio website](https://jpjp.vercel.app/)
+- [GitHub Repo](https://github.com/jjjjjjpppppp/T1A2_Portfolio)
+- [Presentation recording](https://youtu.be/C88YzNQE2ag)
 
 ## Portfolio Website
 
