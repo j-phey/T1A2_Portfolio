@@ -243,9 +243,11 @@ article {
 
 /* Blog Page images */
 .blog-image {
+    /* width: 350px; */
     width: auto;
-    height: 250px;
+    height: 28vh;
     border-radius: 1rem;
+    /* padding: 1rem; */
 }
 
 /* Experience Page with columns */
